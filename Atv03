@@ -1,0 +1,17 @@
+Atv03
+/*Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário. */
+
+    import java.util.*;
+    public class salario {
+        public static void main(String[]arg){
+            float salario, n;
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Salario Atual: R$ ");
+            salario=sc.nextInt();
+            System.out.println("Percentual do reajuste: ");
+            n=sc.nextInt();
+            System.out.println("Salario reajustado: R$ " + (n/100*salario + salario));
+            
+            
+        }
+    }
