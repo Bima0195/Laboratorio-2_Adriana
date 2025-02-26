@@ -1,0 +1,17 @@
+atv04 
+/* O custo de um carro novo ao consumidor é a soma do custo de fábrica com a porcentagem do distribuidor e dos impostos (aplicados ao custo de fábrica). Supondo que o percentual do distribuidor seja de 28% e os impostos de 45%, escrever um algoritmo para ler o custo de fábrica de um carro, calcular e escrever o custo final ao consumidor. */
+
+import java.util.*;
+public class carro {
+    public static void main(String[]arg){
+        float custo, impo, distri;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Custo: R$");
+        custo=sc.nextInt();
+        impo = (45*custo/100);
+        distri = (28*custo/100);
+        System.out.println("Custo total: R$" + (custo+impo+distri));
+     
+        
+    }
+}
