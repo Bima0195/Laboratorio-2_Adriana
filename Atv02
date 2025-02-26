@@ -1,0 +1,22 @@
+Atv02 
+/* Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total de eleitores.
+*/
+
+import java.util.*;
+public class eleitores {
+    public static void main(String[]args) {
+    float elei, bran,nulos, vali;
+    Scanner sc = new Scanner(System.in);
+     System.out.println("Numero de eleitores: ");
+    elei=sc.nextInt();
+    System.out.println("Votos em branco: ")
+    bran=sc.nextInt();
+    System.out.println("Votos nulos: ");
+    nulos=sc.nextInt();
+    System.out.println("Votos validos: ");
+    vali=sc.nextInt();
+    System.out.println("Percentual de votos brancos: " + bran/elei *100+"%");
+    System.out.println("Percentual de votos nulos: " + nulos/elei*100+"%");
+    System.out.println("Percentual de votos validos: " + vali/elei*100+"%");
+}
+}
