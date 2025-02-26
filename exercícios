@@ -97,4 +97,25 @@ public class carro {
         System.out.println("Custo total: R$" + (custo+impo+distri));
 
 
+At013
+/*Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente. */
+
+import java.util.*;
+public class ordem {
+ public static void main(String[]arg){
+int x, n;
+Scanner sc = new Scanner(System.in);
+System.out.print("Digite o primeiro numero: ");
+x=sc.nextInt();
+System.out.print("Digite o segundo numero: ");
+n=sc.nextInt();
+if (x > n){ 
+    System.out.printf("%d %d", n,x);
+} else{
+    System.out.printf("%d %d", x,n);
+}
+}
+}
+
+
 
