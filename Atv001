@@ -1,0 +1,21 @@
+atv01
+/*aça um algoritmo que leia a idade de uma pessoa expressa em anos, meses e dias e escreva a idade dessa pessoa expressa apenas em dias. Considerar ano com 365 dias e mês com 30 dias.*/ 
+
+
+
+import java.util.*;
+publico class Idade {
+    public static void main(String[]args) {
+        int ano,mes,dias, resp;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Idade em ano: ");
+       ano=sc.nextInt();
+       System.out.println("Meses: ");
+       mes=sc.nextInt();
+      System.out.println("Dias: ");
+      dias=sc.nextInt();
+      resp= (ano*365) + (mes*30) + dias;
+       System.out.println("Sua idade em dias e: "+resp);
+    }
+}
+        
