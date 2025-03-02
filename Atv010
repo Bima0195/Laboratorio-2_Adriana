@@ -1,1 +1,21 @@
 Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada. 
+
+
+import java.util.*;
+public class temperatura {
+    public static void main(String[]arg){
+        float a, b,x;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite a primeira nota: ");
+         a=sc.nextInt();
+         System.out.println("Digite a segunda nota: ");
+         b=sc.nextInt();
+         System.out.println("A media e: " + (x = (a+b)/2));
+        if (x >= 6){
+            System.out.printf("Aprovado");}
+            else{
+                System.out.printf("Reprovado");
+            }
+        
+    }
+}
