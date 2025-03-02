@@ -1,1 +1,17 @@
 Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo). 
+
+import java.util.*;
+public class temperatura {
+    public static void main(String[]arg){
+        int x;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+         x=sc.nextInt();
+        if (x >= 0){
+            System.out.printf("E positivo");}
+            else{
+                System.out.printf("E negativo");
+            }
+        
+    }
+}
