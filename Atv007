@@ -1,1 +1,14 @@
 Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10! 
+
+import java.util.*;
+public class temperatura {
+    public static void main(String[]arg){
+        int x;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Digite um numero: ");
+         x=sc.nextInt();
+        if (x > 10){
+            System.out.printf("E maior que 10!");}
+            else{
+                System.out.printf("E menor que 10!");
+            }
