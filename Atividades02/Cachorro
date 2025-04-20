@@ -1,1 +1,53 @@
+package org.example;
 
+public class Cachorro {
+    private String raca;
+    private double tamanho;
+    private String cor;
+
+
+    public Cachorro(String raca, String tamanho, String pelugem) {
+        this.raca = raca;
+        this.tamanho = Double.parseDouble(tamanho);
+        this.cor = cor;
+    }
+
+    public void andar() {
+        System.out.println("O cachorro da raça " + raca + " está andando.");
+    }
+
+    public void latir() {
+        System.out.println("O cachorro da raça " + raca + " está latindo");
+    }
+
+    public void rosnar() {
+        System.out.println("O cachorro da raça " + raca + " está rosnando");
+    }
+
+    public String getRaca() {
+        return raca;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
+
+    public double getTamanho() {
+        return tamanho;
+    }
+
+    public void setTamanho(double tamanho) {
+        this.tamanho = tamanho;
+    }
+
+    public String getcor() {
+        return cor;
+    }
+
+    public void setPelugem(String cor) {
+        this.cor = cor;
+    }
+
+
+
+}
