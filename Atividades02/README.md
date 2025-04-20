@@ -16,18 +16,31 @@
 ![Cachorros](https://github.com/user-attachments/assets/65311b14-9a4b-47c8-958a-32111cf720e2)
 
 
-## Carrros
+## Carro
+![Carros_2](https://github.com/user-attachments/assets/b70f001e-4128-4f66-8a09-c3129bac24fb)
 
 
-
-
-
-
-## Celulares
+## Celular
 ![Celulares](https://github.com/user-attachments/assets/1fc545d2-8631-45c0-a007-e3c388bf77fa)
 
-## Frutas
+
+## Fruta
 ![Frutas](https://github.com/user-attachments/assets/b181f967-3b44-4d1e-b318-79c28fc07b92)
 
-## Flores
+
+## Flore
 ![flores](https://github.com/user-attachments/assets/ff258d6c-62dc-4c0b-8356-db015765e277)
+
+
+## Parafuso
+![Parafuso](https://github.com/user-attachments/assets/dd3ad594-8982-4597-ba6f-1c8095f60833)
+
+
+
+## Peixe
+![Peixe](https://github.com/user-attachments/assets/3833e311-a7a9-4892-96e0-91e6ef218680)
+
+
+## Pessoa
+![Pessoa](https://github.com/user-attachments/assets/fcfb2b72-ce14-48ca-9769-0588b14e315a)
+
