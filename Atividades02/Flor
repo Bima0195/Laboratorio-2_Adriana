@@ -1,1 +1,37 @@
+package org.example;
 
+public class Flor {
+
+    private String nome;
+    private String cor;
+
+    private Flor(String nome, String cor){
+        this.nome = nome;
+        this.cor = cor;
+    }
+
+    public void florescer(){
+        System.out.println("A flor" + nome + "florece uma vez no ano");
+    }
+
+    public void muchar(){
+        System.out.println("A flor" + nome + "murchou por falta de água");
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+}
