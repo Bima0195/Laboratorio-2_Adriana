@@ -1,1 +1,38 @@
+package org.example;
+
+public class Celular {
+
+    private String marca;
+    private String modelo;
+
+    public Celular(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+
+        public void chamar() {
+            System.out.println("Seu" + marca + "Esta recebendo uma chamada");
+        }
+
+        public void travar() {
+        System.out.println("Seu" + modelo + "esta travando");
+        }
+
+        public String getMarca () {
+            return marca;
+        }
+
+        public void setMarca (String marca){
+            this.marca = marca;
+        }
+
+        public String getModelo () {
+            return modelo;
+        }
+
+        public void setModelo (String modelo){
+            this.modelo = modelo;
+        }
+
+}
 
