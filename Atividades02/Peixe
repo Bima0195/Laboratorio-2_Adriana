@@ -1,1 +1,52 @@
+package org.example;
+
+import com.sun.source.tree.ReturnTree;
+
+public class Peixe {
+
+    private String especie;
+    private int tamanha;
+    private int peso;
+
+    public Peixe(String especie, int tamanho, int peso){
+        this.especie = especie;
+        this.tamanha = tamanho;
+        this.peso = peso;
+    }
+
+    public void nadandp(){
+        System.out.println("O" + especie + "esta nadando");
+    }
+
+    public void voando() {
+        System.out.println("O" + especie + "aprendeu a voar");
+    }
+
+
+    public String getEspecie() {
+        return especie;
+    }
+
+    public void setEspecie(String especie) {
+        this.especie = especie;
+    }
+
+    public int getTamanha() {
+        return tamanha;
+    }
+
+    public void setTamanha(int tamanha) {
+        this.tamanha = tamanha;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+    public int setPeso(int peso) {
+        return  this.peso = peso;
+    }
+}
+
+
+
 
