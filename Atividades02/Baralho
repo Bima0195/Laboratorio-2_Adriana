@@ -1,1 +1,51 @@
+package org.example;
+
+public class Baralho {
+    private String carta;
+    private String naipe;
+    private String tipo;
+
+    public Baralho(String carta, String naipe, String tipo){
+        this.carta = carta ;
+        this.naipe = naipe;
+        this.tipo = tipo;
+    }
+
+    public void embaralhar() {
+        System.out.println("Embaralhar as" + carta);
+    }
+
+    public void jogar() {
+        System.out.println("Jogar" + naipe);
+    }
+
+    public void trucar() {
+        System.out.println("Trucar com" + tipo);
+    }
+
+    public String getCarta() {
+        return carta;
+    }
+
+    public void setCarta(String carta) {
+        this.carta = carta;
+    }
+
+    public String getNaipe() {
+        return naipe;
+    }
+
+    public void setNaipe(String naipe) {
+        this.naipe = naipe;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+}
+
 
